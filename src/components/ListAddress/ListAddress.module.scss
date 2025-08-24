@@ -1,0 +1,33 @@
+.list_address {
+  width: 75%;
+  background-color: #ffffff;
+  color: #15181a;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.active {
+  border: 2px solid #007bff;
+  animation: blink-bg 1s ease-in-out;
+}
+
+@keyframes blink-bg {
+  0% { background-color: #ffffff; }
+  50% { background-color: #f0f0f0; }
+  100% { background-color: #ffffff; }
+}
+
+.address_head {
+  font-size: 18px;
+  font-weight: 600;
+  margin-block-end: 15px;
+}
+
+.list_tel {
+  width: 35%;
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  margin: 0;
+}
+
+.head {
+  width: 90%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f2f5f7;
+  color: #15181a;
+  border-radius: 10px;
+  padding: 10px;
+  margin-block-end: 30px;
+}
+
+.header {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.input {
+  width: 40%;
+  height: 35%;
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
