@@ -1,6 +1,8 @@
 import React from "react";
 import style from "./ContentAddress.module.scss"
-import { Phone } from "lucide-react"
+// import { Phone } from "lucide-react"
+import { Head } from './SubComponents/Head/Head'
+import { Telephone } from './SubComponents/Telephone/Telephone'
 
 export const ContentAddress = ({ data, onClose }) => {
   return (
@@ -9,21 +11,14 @@ export const ContentAddress = ({ data, onClose }) => {
         <button className={style.closeBtn} onClick={onClose}>
           ✖
         </button>
-        <h2 className={style.address_head}>{data.address}</h2>
+        <Head objectAddress={data}/>
+        <Telephone data={data}/>
 
-        <p className={style.phone}>
-          <Phone size={18} color="green" className={style.icon} />
-          <a className={style.phone_number} href={`tel:${data.telephone1}`}>{data.telephone1}</a>
-        </p>
-
-        <p className={style.phone}>
-          <Phone size={18} color="green" className={style.icon} />
-          <a className={style.phone_number} href={`tel:${data.telephone2}`}>{data.telephone2}</a>
-        </p>
-
+        {data.comment && (
         <p className={style.info}>
           {data.comment}
         </p>
+        )}
       </div>
     </div>
   );

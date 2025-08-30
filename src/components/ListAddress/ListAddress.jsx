@@ -15,8 +15,10 @@ export const ListAddress = ({address, telephone1, telephone2, isActive, onClick 
   return (
     <div ref={cardRef} onClick={onClick} className={`${style.list_address} ${isActive ? style.active : ""}`}>
       <p className={style.address_head}>{address}</p>
-      <a className={style.list_tel} href={`tel:${telephone1}`} onClick={(e) => e.stopPropagation()}>{telephone1}</a>
-      <a className={style.list_tel} href={`tel:${telephone2}`} onClick={(e) => e.stopPropagation()}>{telephone2}</a>
+      {telephone1 && (
+      <a className={style.list_tel} href={`tel:${telephone1}`} onClick={(e) => e.stopPropagation()}>{telephone1}</a>)}
+      {telephone2 && (
+      <a className={style.list_tel} href={`tel:${telephone2}`} onClick={(e) => e.stopPropagation()}>{telephone2}</a>)}
     </div>
   )
 }

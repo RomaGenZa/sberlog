@@ -29,29 +29,9 @@
   cursor: pointer;
 }
 
-.address_head {
-  margin-block-end: 20px;
-}
-
 @keyframes showPopup {
   from { transform: translateY(-20px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
-}
-
-.phone {
-  display: flex;
-  align-items: center;
-  gap: 8px; 
-  font-size: 16px;
-  margin-block-end: 10px;
-}
-
-.icon {
-  flex-shrink: 0;
-}
-
-.phone_number {
-  text-decoration: none;
 }
 
 .info {
