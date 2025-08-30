@@ -6,7 +6,7 @@ export const ListAddress = ({address, telephone, isActive, onClick }) => {
       onClick={onClick}
       className={`${style.list_address} ${isActive ? style.active : ""}`}
     >
-      <p>{address}</p>
+      <p className={style.adress}>{address}</p>
       
       {telephone.map((tel, idx) => (
         <a

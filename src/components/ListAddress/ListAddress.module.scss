@@ -10,6 +10,13 @@
   padding: 8px;
 }
 
+.adress {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  margin-block-end: 10px;
+}
+
 .active {
   border: 2px solid #007bff;
   animation: blink-bg 1s ease-in-out;

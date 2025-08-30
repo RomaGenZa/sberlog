@@ -8,7 +8,7 @@ export const Telephone = ({ data }) => {
     <div>
       {data.telephone.map((tel, idx) => (
         <p key={idx} className={style.phone}>
-          <Phone className={style.icon} color="green" size={18} />
+          <Phone className={style.icon} />
           <a className={style.phone_number} href={`tel:${tel}`}>
             {tel}
           </a>
