@@ -1,7 +1,5 @@
-import React from 'react'
 import style from './Blockaddress.module.scss'
 import { ListAddress } from '../ListAddress/ListAddress'
-// import { data } from '../../data/data'
 
 export const BlockAddress = ({ dataObject, search, onSelectCard  }) => {
   return (
@@ -12,8 +10,7 @@ export const BlockAddress = ({ dataObject, search, onSelectCard  }) => {
           <ListAddress
           key={idx} 
           address={e.address}
-          telephone1={e.telephone1}
-          telephone2={e.telephone2}
+          telephone={e.telephone}
           comment={e.comment}
           isActive={isActive}
           onClick={() => onSelectCard?.(e)}
