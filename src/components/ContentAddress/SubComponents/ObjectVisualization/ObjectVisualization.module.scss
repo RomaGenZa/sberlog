@@ -1,12 +1,60 @@
-.visualWrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.wrapper {
+  position: relative;
+  width: 100%;
 }
 
-.visual {
-  max-width: 200px;
-  border-radius: 8px;
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+
+  -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.image {
+  flex: 0 0 auto;
+  width: 320px;
+  height: 450px;
   object-fit: cover;
+  border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  cursor: grab;
+  transition: transform 0.2s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.9);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+  padding: 6px;
+  z-index: 2;
+  transition: background 0.2s ease;
+}
+
+.arrow:hover {
+  background: rgba(240,240,240,1);
+}
+
+.left {
+  left: -15px;
+}
+
+.right {
+  right: -15px;
 }
