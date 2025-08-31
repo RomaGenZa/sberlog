@@ -10,6 +10,13 @@ import donbasskaya23Img3 from '../assets/donbasskaya23/donbasskaya5.jpg'
 
 import Division1 from '../assets/45Division/45Division1.jpg'
 
+import Lizyukova1 from '../assets/Lizyukova24/Lizyukova1.jpg'
+
+import LeninskiAvenu1 from '../assets/LeninskiAvenu116a/LeninskiAvenu1.jpg'
+import LeninskiAvenu2 from '../assets/LeninskiAvenu116a/LeninskiAvenu2.jpg'
+import LeninskiAvenu3 from '../assets/LeninskiAvenu116a/LeninskiAvenu3.jpg'
+import LeninskiAvenu4 from '../assets/LeninskiAvenu116a/LeninskiAvenu4.jpg'
+
 export const data = [
   {
     address: 'пр. Революции, 39',
@@ -41,5 +48,17 @@ export const data = [
   {
     address: 'Л.Шивцовой, 31',
     telephone: ['+79921777671'],
+  },
+  {
+    address: 'Г.Лизюкова, 24',
+    telephone: [],
+    comment: 'Въезд с торца здания с лева от поликлиники',
+    image: [Lizyukova1],
+  },
+  {
+    address: 'Ленинский проспект, 116а/1',
+    telephone: [],
+    comment: 'Въезд с Ленинского проспекта двигаясь в сторону Остужева, повернуть на право, после здания по Ленинскому проспекту, 116, перед зданием по Ленинскому проспекту, 116а, дальше первый поворот на лево и снова на право вдоль гаражей',
+    image: [LeninskiAvenu1, LeninskiAvenu2, LeninskiAvenu3, LeninskiAvenu4,],
   },
 ]
