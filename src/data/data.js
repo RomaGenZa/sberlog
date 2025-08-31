@@ -8,6 +8,8 @@ import donbasskaya23Img1 from '../assets/donbasskaya23/donbasskaya3.jpg'
 import donbasskaya23Img2 from '../assets/donbasskaya23/donbasskaya4.jpg'
 import donbasskaya23Img3 from '../assets/donbasskaya23/donbasskaya5.jpg'
 
+import Division1 from '../assets/45Division/45Division1.jpg'
+
 export const data = [
   {
     address: 'пр. Революции, 39',
@@ -24,7 +26,8 @@ export const data = [
   {
     address: '45 Стр. Дивизии, 232/1',
     telephone: ['+79944306077', '+79601177563'],
-    comment: 'Въезд в ворота с лева, с улицы Беговая'
+    comment: 'Въезд в ворота с лева, с улицы Беговая',
+    image: [Division1],
   },
   {
     address: 'Ворошилова, 5',

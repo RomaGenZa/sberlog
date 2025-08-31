@@ -8,16 +8,20 @@ export const ListAddress = ({address, telephone, isActive, onClick }) => {
     >
       <p className={style.adress}>{address}</p>
       
-      {telephone.map((tel, idx) => (
-        <a
-          key={idx}
-          className={style.list_tel}
-          href={`tel:${tel}`}
-          onClick={(e) => e.stopPropagation()}
-        >
-          {tel}
-        </a>
-      ))}
+      {telephone.length > 0 ? (
+        telephone.map((tel, idx) => (
+          <a
+            key={idx}
+            className={style.list_tel}
+            href={`tel:${tel}`}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {tel}
+          </a>
+        ))
+      ) : (
+        <p className={style.add_information}>Открытая территория</p>
+      )}
     </div>
   )
 }
