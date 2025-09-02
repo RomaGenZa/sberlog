@@ -1,4 +1,4 @@
-import style from './Blockaddress.module.scss'
+import style from './BlockAddress.module.scss'
 import { ListAddress } from '../ListAddress/ListAddress'
 
 export const BlockAddress = ({ dataObject, search, onSelectCard  }) => {
