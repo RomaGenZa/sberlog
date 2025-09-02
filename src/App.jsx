@@ -7,6 +7,7 @@ import { ContentAddress } from './components/ContentAddress/ContentAddress'
 
 function App() {
   const [search, setSearch] = useState("");
+  
   const [selectedCard, setSelectedCard] = useState(null);
 
   return (
