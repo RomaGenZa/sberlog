@@ -17,6 +17,11 @@ import LeninskiAvenu2 from '../assets/LeninskiAvenu116a/LeninskiAvenu2.jpg'
 import LeninskiAvenu3 from '../assets/LeninskiAvenu116a/LeninskiAvenu3.jpg'
 import LeninskiAvenu4 from '../assets/LeninskiAvenu116a/LeninskiAvenu4.jpg'
 
+import Shevcovoy1 from '../assets/Shevcovoy31/Shevcovoy1.jpg'
+import Shevcovoy2 from '../assets/Shevcovoy31/Shevcovoy2.jpg'
+
+import BPionerov1 from '../assets/BPionerov17a/BPionerov1.jpg'
+
 export const data = [
   {
     address: 'пр. Революции, 39',
@@ -48,6 +53,7 @@ export const data = [
   {
     address: 'Л.Шивцовой, 31',
     telephone: ['+79921777671'],
+    image: [Shevcovoy1, Shevcovoy2],
   },
   {
     address: 'Г.Лизюкова, 24',
@@ -60,5 +66,11 @@ export const data = [
     telephone: [],
     comment: 'Въезд с Ленинского проспекта двигаясь в сторону Остужева, повернуть на право, после здания по Ленинскому проспекту, 116, перед зданием по Ленинскому проспекту, 116а, дальше первый поворот на лево и снова на право вдоль гаражей',
     image: [LeninskiAvenu1, LeninskiAvenu2, LeninskiAvenu3, LeninskiAvenu4,],
+  },
+  {
+    address: 'Бульвар Пионеров, 17а',
+    telephone: [],
+    comment: '',
+    image: [BPionerov1],
   },
 ]
