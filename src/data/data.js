@@ -27,6 +27,9 @@ import LeninskiAvenu119_2 from '../assets/LeninskiAvenu119/LeninskiAvenu119_2.jp
 import LeninskiAvenu119_3 from '../assets/LeninskiAvenu119/LeninskiAvenu119_3.jpg'
 import LeninskiAvenu119_4 from '../assets/LeninskiAvenu119/LeninskiAvenu119_4.jpg'
 
+import Selskaya1 from '../assets/Selskaya3a/Selskaya1.jpg'
+import Selskaya2 from '../assets/Selskaya3a/Selskaya2.jpg'
+
 export const data = [
   {
     address: 'пр. Революции, 39',
@@ -81,7 +84,13 @@ export const data = [
   {
     address: 'Ленинский проспект, 119а/3',
     telephone: [],
-    comment: '',
+    comment: 'Заезд с улицы Минской между зданиями 2а и 2Б',
     image: [LeninskiAvenu119_1, LeninskiAvenu119_2, LeninskiAvenu119_3, LeninskiAvenu119_4],
+  },
+  {
+    address: 'Сельская, 3а',
+    telephone: [],
+    comment: '',
+    image: [Selskaya1, Selskaya2],
   },
 ]
