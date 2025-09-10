@@ -22,6 +22,11 @@ import Shevcovoy2 from '../assets/Shevcovoy31/Shevcovoy2.jpg'
 
 import BPionerov1 from '../assets/BPionerov17a/BPionerov1.jpg'
 
+import LeninskiAvenu119_1 from '../assets/LeninskiAvenu119/LeninskiAvenu119_1.jpg'
+import LeninskiAvenu119_2 from '../assets/LeninskiAvenu119/LeninskiAvenu119_2.jpg'
+import LeninskiAvenu119_3 from '../assets/LeninskiAvenu119/LeninskiAvenu119_3.jpg'
+import LeninskiAvenu119_4 from '../assets/LeninskiAvenu119/LeninskiAvenu119_4.jpg'
+
 export const data = [
   {
     address: 'пр. Революции, 39',
@@ -72,5 +77,11 @@ export const data = [
     telephone: [],
     comment: '',
     image: [BPionerov1],
+  },
+  {
+    address: 'Ленинский проспект, 119а/3',
+    telephone: [],
+    comment: '',
+    image: [LeninskiAvenu119_1, LeninskiAvenu119_2, LeninskiAvenu119_3, LeninskiAvenu119_4],
   },
 ]
