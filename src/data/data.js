@@ -30,6 +30,11 @@ import LeninskiAvenu119_4 from '../assets/LeninskiAvenu119/LeninskiAvenu119_4.jp
 import Selskaya1 from '../assets/Selskaya3a/Selskaya1.jpg'
 import Selskaya2 from '../assets/Selskaya3a/Selskaya2.jpg'
 
+import Voroshilova_1 from '../assets/Voroshilova5/Voroshilova_1.jpg'
+import Voroshilova_2 from '../assets/Voroshilova5/Voroshilova_2.jpg'
+import Voroshilova_3 from '../assets/Voroshilova5/Voroshilova_3.jpg'
+import Voroshilova_4 from '../assets/Voroshilova5/Voroshilova_4.jpg'
+
 export const data = [
   {
     address: 'пр. Революции, 39',
@@ -52,6 +57,8 @@ export const data = [
   {
     address: 'Ворошилова, 5',
     telephone: ['+79006380780'],
+    comment: 'Въезд с Депутатского сквера, далее за шлагбаум',
+    image: [Voroshilova_1, Voroshilova_2, Voroshilova_3, Voroshilova_4],
   },
   {
     address: 'Ф.Энгельса, 5А',
