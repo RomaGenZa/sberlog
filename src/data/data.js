@@ -38,6 +38,9 @@ import Voroshilova_2 from '../assets/Voroshilova5/Voroshilova_2.jpg'
 import Voroshilova_3 from '../assets/Voroshilova5/Voroshilova_3.jpg'
 import Voroshilova_4 from '../assets/Voroshilova5/Voroshilova_4.jpg'
 
+import Shishkova_1 from '../assets/Shishkova107D/Shishkova_1.jpg'
+import Shishkova_2 from '../assets/Shishkova107D/Shishkova_2.jpg'
+
 export const data = [
   {
     address: 'пр. Революции, 39',
@@ -103,5 +106,11 @@ export const data = [
     telephone: [],
     comment: '',
     image: [Selskaya1, Selskaya2],
+  },
+  {
+    address: 'Шишкова, 107Д',
+    telephone: [],
+    comment: '',
+    image: [Shishkova_1, Shishkova_2],
   },
 ]
