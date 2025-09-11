@@ -12,6 +12,9 @@ import Division1 from '../assets/45Division/45Division1.jpg'
 
 import Lizyukova1 from '../assets/Lizyukova24/Lizyukova1.jpg'
 
+import FEngelsa1 from '../assets/FEngelsa5A/FEngelsa_1.jpg'
+import FEngelsa2 from '../assets/FEngelsa5A/FEngelsa_2.jpg'
+
 import LeninskiAvenu1 from '../assets/LeninskiAvenu116a/LeninskiAvenu1.jpg'
 import LeninskiAvenu2 from '../assets/LeninskiAvenu116a/LeninskiAvenu2.jpg'
 import LeninskiAvenu3 from '../assets/LeninskiAvenu116a/LeninskiAvenu3.jpg'
@@ -63,7 +66,8 @@ export const data = [
   {
     address: 'Ф.Энгельса, 5А',
     telephone: ['+79502295562'],
-    comment: 'Въезд в ворота с права, с улицы Ф.Энгельса'
+    comment: 'Въезд в ворота с права здания, с улицы Ф.Энгельса',
+    image: [FEngelsa1, FEngelsa2],
   },
   {
     address: 'Л.Шивцовой, 31',
