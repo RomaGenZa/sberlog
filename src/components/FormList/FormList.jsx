@@ -1,9 +1,7 @@
 import React from "react";
 import style from "./FormList.module.scss";
-// import { useForm } from "react-hook-form"
 
 export const FormList = ({ search, setSearch }) => {
-  // const { register, handleSubmit, watch } = useForm();
 
   return (
     <form className={style.head} onSubmit={(e) => e.preventDefault()}>
